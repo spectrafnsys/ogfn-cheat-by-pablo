@@ -31,7 +31,7 @@ namespace Features {
 
                 if (ImGui::BeginTabItem("Settings")) {
                     // General cheat settings, keys, misc toggles, etc.
-                    ImGui::Text("Fortnite 9.10 cheat by ChatGPT");
+                    ImGui::Text("Fortnite 9.10 cheat");
                     ImGui::Text("Press INSERT to toggle menu");
                     ImGui::EndTabItem();
                 }
