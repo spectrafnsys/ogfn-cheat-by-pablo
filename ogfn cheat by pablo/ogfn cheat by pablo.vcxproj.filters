@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{bd135c01-ca03-4dce-9fa2-0ab88b07fcc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{42f0096f-5966-4eb3-918b-18e4334132ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features">
+      <UniqueIdentifier>{14d37634-6499-4013-9f3b-de8a217b0384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooks">
+      <UniqueIdentifier>{9a4d037a-40d0-4732-8f84-43f4c4b6aa32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{a36e0a7d-d227-4664-a4f8-ca96f7bca41f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{ee64aaca-e032-486c-b69a-5bebc6cc64f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{172ab124-64ab-4d0f-a978-b0074b04c9de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="core.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="aimbot.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="esp.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="aimbot_hook.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="logger.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot_hook.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_structs.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="math_utils.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
